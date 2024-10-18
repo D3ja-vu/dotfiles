@@ -2,7 +2,7 @@ import psutil
 from ignis.widgets import Widget
 
 # Unicode bolt symbol
-BOLT_SYMBOL = "⚡"
+BOLT_SYMBOL = ""
 
 def get_battery_info():
     battery = psutil.sensors_battery()
